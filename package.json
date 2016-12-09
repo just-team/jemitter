@@ -1,0 +1,27 @@
+{
+  "name": "jemitter",
+  "version": "0.0.1",
+  "description": "EventEmitter for servers.",
+  "main": "index.js",
+  "author": "#Just-team",
+  "contributors": [
+    "Nairi Harutyunyan",
+    "Varik Matevosyan"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/just-team/"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "node-redis-pubsub": "^1.0.1"
+  },
+  "keywords": [
+    "server",
+    "emit",
+    "reids",
+    "pub/sub",
+    "EventEmitter"
+  ]
+}
