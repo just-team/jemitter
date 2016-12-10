@@ -1,9 +1,11 @@
 ## About
 Jemitter is simple event emitter between servers, which works with tcp connections, and redis pub/sub.
+
 ## Features
 1. Fast
 2. Promisified
 3. Singletone
+
 ## Usage
 ```
 $ npm install jemitter --save
@@ -38,7 +40,9 @@ client.emit('foobar', {'foo': 'bar'})
 Server handler callback must have 2 arguments
 ``` 
 cb(err, data);
+
 // if you have any error, call your cb so
 cb(err, {}); // 2rd argument is required
+
 // if you have new data for resolve, call your cb so
 cb(null, data); // 2rd must be only "object"
